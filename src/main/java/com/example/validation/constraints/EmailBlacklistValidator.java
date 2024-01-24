@@ -1,6 +1,6 @@
 package com.example.validation.constraints;
 
-import com.example.validation.constraints.anotaitions.EmailBlackList;
+import com.example.validation.constraints.annotations.EmailBlackList;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

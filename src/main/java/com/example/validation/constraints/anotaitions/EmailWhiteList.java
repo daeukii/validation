@@ -1,4 +1,5 @@
-package com.example.validation.constraints.anotaitions;
+package com.example.validation.constraints.annotations;
+
 
 import com.example.validation.constraints.EmailWhitelistValidator;
 import jakarta.validation.Constraint;
@@ -15,7 +16,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = EmailWhitelistValidator.class)
 public @interface EmailWhiteList {
-    String message() default  "Email not in whitelist";
+    String message() default "Email not in whitelist";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }

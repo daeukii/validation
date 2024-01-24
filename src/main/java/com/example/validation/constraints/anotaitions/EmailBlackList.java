@@ -1,5 +1,4 @@
-package com.example.validation.constraints.anotaitions;
-
+package com.example.validation.constraints.annotations;
 
 import com.example.validation.constraints.EmailBlacklistValidator;
 import jakarta.validation.Constraint;
